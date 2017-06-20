@@ -26,7 +26,7 @@
 #include <unistd.h>
 
 #include <sys/ioctl.h>
-
+#include <sys/select.h>
 #include "debug.h"
 
 #define DEFAULT_SERIAL  "/dev/ttyUSB0"
